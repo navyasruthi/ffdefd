@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:38:07.462Z",
+        "line": 4,
+        "name": "select product",
+        "description": "",
+        "id": "add-to-cart;select-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 127551923699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "homepage",
+            "match": {
+              "location": "AddToCart.homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100055000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "when user click on all category",
+            "match": {
+              "location": "AddToCart.when_user_click_on_all_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1121870301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "popup appear select Electronics and click on Headphone",
+            "match": {
+              "location": "AddToCart.popup_appear_select_Electronics_and_click_on_Headphone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4189564199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on add to cart",
+            "match": {
+              "location": "AddToCart.click_on_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "add to cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "classpath:cs3/cs3.feature",
+    "tags": []
+  }
+]
